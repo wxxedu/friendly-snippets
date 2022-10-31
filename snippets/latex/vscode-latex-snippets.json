@@ -327,7 +327,7 @@
         "description": "Insert italic 'Sol.'"
     },
     "Insert Definition Environment": {
-        "prefix": ["\\cstdef "],
+        "prefix": ["\\cstdef\\"],
         "body": [
             "\\begin{cstdef}{$1}",
             "$0",
@@ -343,7 +343,7 @@
         ]
     },
     "Insert Question Environment": {
-        "prefix": ["\\cstqsn "],
+        "prefix": ["\\cstqsn\\"],
         "body": [
             "\\begin{cstqsn}{$1}",
             "$0",
@@ -359,7 +359,7 @@
         ]
     },
     "Insert Exercise Environment": {
-        "prefix": ["\\cstexe "],
+        "prefix": ["\\cstexe\\"],
         "body": [
             "\\begin{cstexe}{$1}",
             "$0",
@@ -375,7 +375,7 @@
         ]
     },
     "Insert Extra Exercise Environment": {
-        "prefix": ["\\csteexe "],
+        "prefix": ["\\csteexe\\"],
         "body": [
             "\\begin{csteexe}{$1}",
             "$0",
@@ -391,7 +391,7 @@
         ]
     },
     "Insert Example Environment": {
-        "prefix": ["\\csteg "],
+        "prefix": ["\\csteg\\"],
         "body": [
             "\\begin{csteg}{$1}",
             "$0",
@@ -407,7 +407,7 @@
         ]
     },
     "Insert Remark Environment": {
-        "prefix": ["\\cstrmk "],
+        "prefix": ["\\cstrmk\\"],
         "body": [
             "\\begin{cstrmk}{$1}",
             "$0",
@@ -423,7 +423,7 @@
         ]
     },
     "Insert Theorem Environment": {
-        "prefix": ["\\cstthm "],
+        "prefix": ["\\cstthm\\"],
         "body": [
             "\\begin{cstthm}{$1}",
             "$0",
@@ -431,7 +431,7 @@
         ]
     },
     "Insert Theorem No Number": {
-        "prefix": ["\\cstthm* "],
+        "prefix": ["\\cstthm*\\"],
         "body": [
             "\\begin{cstthm*}",
             "$0",
@@ -439,7 +439,7 @@
         ]
     },
     "Insert Lemma Environment": {
-        "prefix": ["\\cstlem "],
+        "prefix": ["\\cstlem\\"],
         "body": [
             "\\begin{cstlem}{$1}",
             "$0",
@@ -447,7 +447,7 @@
         ]
     },
     "Insert Lemma No Number": {
-        "prefix": ["\\cstlem* "],
+        "prefix": ["\\cstlem*\\"],
         "body": [
             "\\begin{cstlem*}",
             "$0",
@@ -455,17 +455,17 @@
         ]
     },
     "Text Bold": {
-        "prefix": ["\\tbf "],
+        "prefix": ["\\tbf\\"],
         "body": ["\\textbf{$1}$0"],
         "description": "Insert bold text."
     },
     "Text Italic": {
-        "prefix": ["\\tit "],
+        "prefix": ["\\tit\\"],
         "body": ["\\textit{$1}$0"],
         "description": "Insert italic text."
     },
     "Text TT": {
-        "prefix": ["\\ttt "],
+        "prefix": ["\\ttt\\"],
         "body": ["\\texttt{$1}$0"],
         "description": "Insert text in typewriter font."
     }
