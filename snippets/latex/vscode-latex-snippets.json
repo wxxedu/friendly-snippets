@@ -453,5 +453,20 @@
             "$0",
             "\\end{cstlem*}"
         ]
+    },
+    "Text Bold": {
+        "prefix": ["\\tbf"],
+        "body": ["\\textbf{$1}$0"],
+        "description": "Insert bold text."
+    },
+    "Text Italic": {
+        "prefix": ["\\tit"],
+        "body": ["\\textit{$1}$0"],
+        "description": "Insert italic text."
+    },
+    "Text TT": {
+        "prefix": ["\\ttt"],
+        "body": ["\\texttt{$1}$0"],
+        "description": "Insert text in typewriter font."
     }
 }
