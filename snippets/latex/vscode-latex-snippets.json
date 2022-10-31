@@ -4,14 +4,14 @@
         "body": [
             "\\documentclass{article}", 
             "\\usepackage{preamble}", 
-            "\\title{${0:Title}}",
+            "\\title{${1:Title}}",
             "\\author{Wang Xiuxuan}",
             "\\begin{document}",
             "\\maketitle",
             "\\pagestyle{fancy}",
-            "\\lhead{${0:Title}}",
+            "\\lhead{${1:Title}}",
             "\\rhead{Wang Xiuxuan - A0244831H}",
-            "$1",
+            "$0",
             "\\end{document}"
         ],
         "description": "article template"
@@ -21,11 +21,11 @@
         "body": [
             "\\documentclass{book}", 
             "\\usepackage{preamble}", 
-            "\\title{${0:Title}}",
+            "\\title{${1:Title}}",
             "\\author{Wang Xiuxuan}",
             "\\begin{document}",
             "\\maketitle",
-            "$1",
+            "$0",
             "\\end{document}"
         ],
         "description": "article template"
@@ -148,7 +148,7 @@
     "Proof": {
         "prefix": ["\\proof"],
         "body": [
-            "\\begin{proof}[Proof ${1:Other Information}]",
+            "\\begin{proof}",
             "\t$0",
             "\\end{proof}"
         ],
@@ -311,7 +311,7 @@
         "prefix": ["\\aligntext"],
         "body": [
             "\\begin{align*}",
-            "\t$1",
+            "$1",
             "\\end{align*}$0"
         ],
         "description": "Create an align environment when the context is in the text environment."
@@ -330,7 +330,7 @@
         "prefix": ["\\cstdef"],
         "body": [
             "\\begin{cstdef}{$1}",
-            "\t$0",
+            "$0",
             "\\end{cstdef}"
         ]
     },
@@ -338,7 +338,7 @@
         "prefix": ["\\cstdef*"],
         "body": [
             "\\begin{cstdef*}",
-            "\t$0",
+            "$0",
             "\\end{cstdef*}"
         ]
     },
@@ -346,7 +346,7 @@
         "prefix": ["\\cstqsn"],
         "body": [
             "\\begin{cstqsn}{$1}",
-            "\t$0",
+            "$0",
             "\\end{cstqsn}"
         ]
     },
@@ -354,7 +354,7 @@
         "prefix": ["\\cstqsn*"],
         "body": [
             "\\begin{cstqsn*}",
-            "\t$0",
+            "$0",
             "\\end{cstqsn*}"
         ]
     },
@@ -362,7 +362,7 @@
         "prefix": ["\\cstexe"],
         "body": [
             "\\begin{cstexe}{$1}",
-            "\t$0",
+            "$0",
             "\\end{cstex}"
         ]
     },
@@ -370,7 +370,7 @@
         "prefix": ["\\cstexe*"],
         "body": [
             "\\begin{cstexe*}",
-            "\t$0",
+            "$0",
             "\\end{cstexe*}"
         ]
     },
@@ -378,7 +378,7 @@
         "prefix": ["\\csteexe"],
         "body": [
             "\\begin{csteexe}{$1}",
-            "\t$0",
+            "$0",
             "\\end{csteexe}"
         ]
     },
@@ -386,7 +386,7 @@
         "prefix": ["\\csteexe*"],
         "body": [
             "\\begin{csteexe*}",
-            "\t$0",
+            "$0",
             "\\end{csteexe*}"
         ]
     },
@@ -394,7 +394,7 @@
         "prefix": ["\\csteg"],
         "body": [
             "\\begin{csteg}{$1}",
-            "\t$0",
+            "$0",
             "\\end{csteg}"
         ]
     },
@@ -402,7 +402,7 @@
         "prefix": ["\\csteg*"],
         "body": [
             "\\begin{csteg*}",
-            "\t$0",
+            "$0",
             "\\end{csteg*}"
         ]
     },
@@ -410,7 +410,7 @@
         "prefix": ["\\cstrmk"],
         "body": [
             "\\begin{cstrmk}{$1}",
-            "\t$0",
+            "$0",
             "\\end{cstrmk}"
         ]
     },
@@ -418,7 +418,7 @@
         "prefix": ["\\cstrmk*"],
         "body": [
             "\\begin{cstrmk*}",
-            "\t$0",
+            "$0",
             "\\end{cstrmk*}"
         ]
     },
@@ -426,7 +426,7 @@
         "prefix": ["\\cstthm"],
         "body": [
             "\\begin{cstthm}{$1}",
-            "\t$0",
+            "$0",
             "\\end{cstthm}"
         ]
     },
@@ -434,7 +434,7 @@
         "prefix": ["\\cstthm*"],
         "body": [
             "\\begin{cstthm*}",
-            "\t$0",
+            "$0",
             "\\end{cstthm*}"
         ]
     },
@@ -442,7 +442,7 @@
         "prefix": ["\\cstlem"],
         "body": [
             "\\begin{cstlem}{$1}",
-            "\t$0",
+            "$0",
             "\\end{cstlem}"
         ]
     },
@@ -450,7 +450,7 @@
         "prefix": ["\\cstlem*"],
         "body": [
             "\\begin{cstlem*}",
-            "\t$0",
+            "$0",
             "\\end{cstlem*}"
         ]
     }
