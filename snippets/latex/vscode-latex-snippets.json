@@ -468,5 +468,23 @@
         "prefix": ["\\ttt-"],
         "body": ["\\texttt{$1}$0"],
         "description": "Insert text in typewriter font."
+    },
+    "Itemize": {
+        "prefix": ["\\itemize-"],
+        "body": [
+            "\\begin{itemize}",
+            "\t\\item $0",
+            "\\end{itemize}"
+        ],
+        "description": "Insert itemize environment."
+    },
+    "Enumerate": {
+        "prefix": ["\\enumerate-"],
+        "body": [
+            "\\begin{enumerate}",
+            "\t\\item $0",
+            "\\end{enumerate}"
+        ],
+        "description": "Insert enumerate environment."
     }
 }
