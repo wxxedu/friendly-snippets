@@ -325,5 +325,133 @@
         "prefix": ["\\solution"],
         "body": ["\\textit{ Sol. }"],
         "description": "Insert italic 'Sol.'"
+    },
+    "Insert Definition Environment": {
+        "prefix": ["\\cstdef"],
+        "body": [
+            "\\begin{cstdef}{$1}",
+            "\t$0",
+            "\\end{cstdef}"
+        ]
+    },
+    "Insert Definition No Number": {
+        "prefix": ["\\cstdef*"],
+        "body": [
+            "\\begin{cstdef*}",
+            "\t$0",
+            "\\end{cstdef*}"
+        ]
+    },
+    "Insert Question Environment": {
+        "prefix": ["\\cstqsn"],
+        "body": [
+            "\\begin{cstqsn}{$1}",
+            "\t$0",
+            "\\end{cstqsn}"
+        ]
+    },
+    "Insert Question No Number": {
+        "prefix": ["\\cstqsn*"],
+        "body": [
+            "\\begin{cstqsn*}",
+            "\t$0",
+            "\\end{cstqsn*}"
+        ]
+    },
+    "Insert Exercise Environment": {
+        "prefix": ["\\cstexe"],
+        "body": [
+            "\\begin{cstexe}{$1}",
+            "\t$0",
+            "\\end{cstex}"
+        ]
+    },
+    "Insert Exercise No Number": {
+        "prefix": ["\\cstexe*"],
+        "body": [
+            "\\begin{cstexe*}",
+            "\t$0",
+            "\\end{cstexe*}"
+        ]
+    },
+    "Insert Extra Exercise Environment": {
+        "prefix": ["\\csteexe"],
+        "body": [
+            "\\begin{csteexe}{$1}",
+            "\t$0",
+            "\\end{csteexe}"
+        ]
+    },
+    "Insert Extra Exercise No Number": {
+        "prefix": ["\\csteexe*"],
+        "body": [
+            "\\begin{csteexe*}",
+            "\t$0",
+            "\\end{csteexe*}"
+        ]
+    },
+    "Insert Example Environment": {
+        "prefix": ["\\csteg"],
+        "body": [
+            "\\begin{csteg}{$1}",
+            "\t$0",
+            "\\end{csteg}"
+        ]
+    },
+    "Insert Example No Number": {
+        "prefix": ["\\csteg*"],
+        "body": [
+            "\\begin{csteg*}",
+            "\t$0",
+            "\\end{csteg*}"
+        ]
+    },
+    "Insert Remark Environment": {
+        "prefix": ["\\cstrmk"],
+        "body": [
+            "\\begin{cstrmk}{$1}",
+            "\t$0",
+            "\\end{cstrmk}"
+        ]
+    },
+    "Insert Remark No Number": {
+        "prefix": ["\\cstrmk*"],
+        "body": [
+            "\\begin{cstrmk*}",
+            "\t$0",
+            "\\end{cstrmk*}"
+        ]
+    },
+    "Insert Theorem Environment": {
+        "prefix": ["\\cstthm"],
+        "body": [
+            "\\begin{cstthm}{$1}",
+            "\t$0",
+            "\\end{cstthm}"
+        ]
+    },
+    "Insert Theorem No Number": {
+        "prefix": ["\\cstthm*"],
+        "body": [
+            "\\begin{cstthm*}",
+            "\t$0",
+            "\\end{cstthm*}"
+        ]
+    },
+    "Insert Lemma Environment": {
+        "prefix": ["\\cstlem"],
+        "body": [
+            "\\begin{cstlem}{$1}",
+            "\t$0",
+            "\\end{cstlem}"
+        ]
+    },
+    "Insert Lemma No Number": {
+        "prefix": ["\\cstlem*"],
+        "body": [
+            "\\begin{cstlem*}",
+            "\t$0",
+            "\\end{cstlem*}"
+        ]
     }
 }
