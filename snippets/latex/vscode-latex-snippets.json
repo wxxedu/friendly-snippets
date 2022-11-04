@@ -19,7 +19,7 @@
     "Book Template": {
         "prefix": ["\\book"], 
         "body": [
-            "\\documentclass{book}", 
+            "\\documentclass[oneside]{book}", 
             "\\usepackage{preamble}", 
             "\\title{${1:Title}}",
             "\\author{Wang Xiuxuan}",
