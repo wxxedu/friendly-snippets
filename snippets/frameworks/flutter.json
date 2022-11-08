@@ -502,7 +502,8 @@
         "abstract class ${1:Name} with _\$${1:Name} {",
         "  const factory ${1:Name}($0) = _${1:Name};",
         "}"
-      ]
+      ],
+      "description": "Create a freezed dataclass"
     },
     "Freezed Union": {
       "prefix": "funion",
@@ -511,24 +512,28 @@
         "abstract class ${1:Name} with _\$${1:Name} {",
         "  const factory ${2:SubclassName}($0) = ${1:Name}${2:SubclassName};",
         "}"
-      ]
+      ],
+      "description": "Create a freezed union"
     },
     "Freezed Union Case": {
       "prefix": "funioncase",
       "body": [
         "const factory ${2:SubclassName}($0) = ${1:Name}${2:SubclassName};"
-      ]
+      ],
+      "description": "Create a freezed union case"
     },
     "Part S": {
       "prefix": "pts",
       "body": [
         "part '${1:${TM_FILENAME_BASE}}.freezed.dart';"
-      ]
+      ],
+      "description": "Create a part statement"
     },
     "Part F": {
       "prefix": "ptf",
       "body": [
         "part '${1:${TM_FILENAME_BASE}}.freezed.dart';"
-      ]
+      ],
+      "description": "Create a part statement"
     }
 }
