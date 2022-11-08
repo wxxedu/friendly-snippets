@@ -494,5 +494,41 @@
             ");"
         ],
         "description": "Create a testWidgets function"
+    }, 
+    "Freezed Dataclass": {
+      "prefix": "fdataclass",
+      "body": [
+        "@freezed",
+        "abstract class ${1:Name} with _\$${1:Name} {",
+        "  const factory ${1:Name}($0) = _${1:Name};",
+        "}"
+      ]
+    },
+    "Freezed Union": {
+      "prefix": "funion",
+      "body": [
+        "@freezed",
+        "abstract class ${1:Name} with _\$${1:Name} {",
+        "  const factory ${2:SubclassName}($0) = ${1:Name}${2:SubclassName};",
+        "}"
+      ]
+    },
+    "Freezed Union Case": {
+      "prefix": "funioncase",
+      "body": [
+        "const factory ${2:SubclassName}($0) = ${1:Name}${2:SubclassName};"
+      ]
+    },
+    "Part S": {
+      "prefix": "pts",
+      "body": [
+        "part '${1:${TM_FILENAME_BASE}}.freezed.dart';"
+      ]
+    },
+    "Part F": {
+      "prefix": "ptf",
+      "body": [
+        "part '${1:${TM_FILENAME_BASE}}.freezed.dart';"
+      ]
     }
 }
