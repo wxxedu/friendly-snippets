@@ -403,7 +403,7 @@
         "body": [
             "\\begin{cstcor}{$1}",
             "$0",
-            "\\end{cstor}"
+            "\\end{cstcor}"
         ]
     },
     "Insert Corollary No Number": {
