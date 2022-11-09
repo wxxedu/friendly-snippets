@@ -28,15 +28,14 @@
             "$0",
             "\\end{document}"
         ],
-        "description": "article template"
+        "description": "book template"
     },
-
     "Large Summation": {
         "prefix": ["sum"],
-		"body": [
-			"\\displaystyle\\sum_{$1}^{$2}$3"
-		],
-		"description": "Insert a large summation notation."
+		    "body": [
+			    "\\displaystyle\\sum_{$1}^{$2}$3"
+		    ],
+		    "description": "Insert a large summation notation."
     },
     "Inline Summation": {
         "prefix": ["suminline"],
@@ -105,13 +104,6 @@
             "\t\\item $1",
             "\\end{itemize}$0"
         ]
-    },
-    "Up": {
-        "prefix": ["to"],
-        "body": [
-            "^ {$1}$0"
-        ],
-        "description": "Superscript notation, as well as the power notation."
     },
     "Theorem": {
         "prefix": ["theorem"],
@@ -421,7 +413,7 @@
             "$0",
             "\\end{cstcor*}"
         ]
-    },,
+    },
     "Insert Remark Environment": {
         "prefix": ["cstrmk"],
         "body": [
@@ -484,15 +476,6 @@
         "prefix": ["ttt"],
         "body": ["\\texttt{$1}$0"],
         "description": "Insert text in typewriter font."
-    },
-    "Itemize": {
-        "prefix": ["itemize"],
-        "body": [
-            "\\begin{itemize}",
-            "\t\\item $0",
-            "\\end{itemize}"
-        ],
-        "description": "Insert itemize environment."
     },
     "Enumerate": {
         "prefix": ["enumerate"],
