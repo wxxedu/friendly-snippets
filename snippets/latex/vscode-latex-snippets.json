@@ -406,6 +406,22 @@
             "\\end{csteg*}"
         ]
     },
+    "Insert Corollary Environment": {
+        "prefix": ["%cstcor"],
+        "body": [
+            "\\begin{cstcor}{$1}",
+            "$0",
+            "\\end{cstor}"
+        ]
+    },
+    "Insert Corollary No Number": {
+        "prefix": ["%cstcor*"],
+        "body": [
+            "\\begin{cstcor*}",
+            "$0",
+            "\\end{cstcor*}"
+        ]
+    },,
     "Insert Remark Environment": {
         "prefix": ["%cstrmk"],
         "body": [
