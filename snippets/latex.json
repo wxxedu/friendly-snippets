@@ -14,11 +14,6 @@
 		"body": "^{${1:${TM_SELECTED_TEXT}}}",
 		"description": "superscript"
 	},
-	"etc": {
-		"prefix": "...",
-		"body": "\\dots",
-		"description": "\\dots"
-	},
 	"cdot": {
 		"prefix": "@.",
 		"body": "\\cdot",
@@ -518,41 +513,5 @@
 	"wrapEnv": {
 		"body": "\n\\begin{$1}\n\t${0:${TM_SELECTED_TEXT}}\n\\end{$1}",
 		"description": "Wrap selection into an environment"
-	},
-	"part": {
-		"prefix": "SPA",
-		"body": "\\part{${1:${TM_SELECTED_TEXT}}}",
-		"description": "part"
-		},
-	"chapter": {
-		"prefix": "SCH",
-		"body": "\\chapter{${1:${TM_SELECTED_TEXT}}}",
-		"description": "chapter"
-	},
-	"section": {
-		"prefix": "SSE",
-		"body": "\\section{${1:${TM_SELECTED_TEXT}}}",
-		"description": "section"
-
-	},
-	"subsection": {
-		"prefix": "SSS",
-		"body": "\\subsection{${1:${TM_SELECTED_TEXT}}}",
-		"description": "subsection"
-	},
-	"subsubsection": {
-		"prefix": "SS2",
-		"body": "\\subsubsection{${1:${TM_SELECTED_TEXT}}}",
-		"description": "subsubsection"
-	},
-	"paragraph": {
-		"prefix": "SPG",
-		"body": "\\paragraph{${1:${TM_SELECTED_TEXT}}}",
-		"description": "paragraph"
-	},
-	"subparagraph": {
-		"prefix": "SSP",
-		"body": "\\subparagraph{${1:${TM_SELECTED_TEXT}}}",
-		"description": "subparagraph"
 	}
 }

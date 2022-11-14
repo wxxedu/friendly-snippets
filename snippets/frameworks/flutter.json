@@ -499,7 +499,7 @@
       "prefix": "fdataclass",
       "body": [
         "@freezed",
-        "abstract class ${1:Name} with _\$${1:Name} {",
+        "abstract class ${1:Name} with _$${1:Name} {",
         "  const factory ${1:Name}($0) = _${1:Name};",
         "}"
       ],
@@ -509,7 +509,7 @@
       "prefix": "funion",
       "body": [
         "@freezed",
-        "abstract class ${1:Name} with _\$${1:Name} {",
+        "abstract class ${1:Name} with _$${1:Name} {",
         "  const factory ${2:SubclassName}($0) = ${1:Name}${2:SubclassName};",
         "}"
       ],
