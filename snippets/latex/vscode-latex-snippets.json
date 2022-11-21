@@ -355,7 +355,7 @@
         "body": [
             "\\begin{cstexe}{$1}",
             "$0",
-            "\\end{cstex}"
+            "\\end{cstexe}"
         ]
     },
     "Insert Exercise No Number": {
