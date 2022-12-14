@@ -535,5 +535,12 @@
         "part '${1:${TM_FILENAME_BASE}}.freezed.dart';"
       ],
       "description": "Create a part statement"
+    },
+    "Part I": {
+      "prefix": "pti",
+      "body": [
+        "part of 'index.dart';"
+      ],
+      "description": "Part of index.dart"
     }
 }
