@@ -14,6 +14,21 @@
         ],
         "description": "Create a Stateless widget"
     },
+    "Hook Widget": {
+        "prefix": "hookW",
+        "body": [
+            "class ${1:name} extends HookWidget {",
+            "  const ${1:name}({Key? key}) : super(key: key);\n",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return Container(",
+            "      child: ${2:null},",
+            "    );",
+            "  }",
+            "}"
+        ],
+        "description": "Create a Stateless widget"
+    },
     "Stateful Widget": {
         "prefix": "statefulW",
         "body": [
